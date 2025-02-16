@@ -8,7 +8,7 @@ from sqlalchemy.exc import OperationalError
 from models import *
 
 # Import db and models from models.py
-from models import db, EmergencyService
+from models import db, EmergencyService, EmergencyReport
 
 # Get the absolute path to the directory containing app.py
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
@@ -27,6 +27,7 @@ app = Flask(__name__,
 # Database configuration - Use existing SQLite database
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(BASE_DIR, '..', 'db.sqlite3')
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+app.config['JSON_SORT_KEYS'] = False  # Preserve JSON key order
 CORS(app)
 app.secret_key = os.getenv('FLASK_SECRET_KEY', 'your-secret-key-here')
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
@@ -49,7 +50,7 @@ def wait_for_db(retries=5, delay=2):
             try:
                 db.create_all()
                 print(f"Database connection successful! (Attempt {attempt + 1})")
-                print(f"Current time (UTC): 2025-02-16 15:19:58")
+                print(f"Current time (UTC): 2025-02-16 19:28:58")
                 print(f"Current user: nicknet06")
                 return True
             except OperationalError as e:
@@ -64,7 +65,7 @@ def wait_for_db(retries=5, delay=2):
 @app.route('/')
 def home():
     return render_template('home.html',
-                           current_time="2025-02-16 15:19:58",
+                           current_time="2025-02-16 19:28:58",
                            current_user="nicknet06")
 
 
@@ -131,7 +132,7 @@ def chat():
                 return redirect(url_for('chat'))
 
     return render_template('chat.html',
-                           current_time="2025-02-16 15:19:58",
+                           current_time="2025-02-16 19:28:58",
                            current_user="nicknet06")
 
 
@@ -143,7 +144,7 @@ def admin_dashboard():
         return render_template('admin_dashboard.html',
                                reports=reports,
                                services=services,
-                               current_time="2025-02-16 15:19:58",
+                               current_time="2025-02-16 19:28:58",
                                current_user="nicknet06")
     except Exception as e:
         flash(f'Error accessing database: {str(e)}', 'error')
@@ -153,11 +154,45 @@ def admin_dashboard():
 @app.route('/api/services')
 def get_services():
     try:
+        print("Attempting to fetch services...")  # Debug log
         services = EmergencyService.query.filter_by(is_active=True).all()
-        return jsonify([service.to_dict() for service in services])
+        print(f"Found {len(services)} active services")  # Debug log
+        result = []
+        for service in services:
+            service_dict = service.to_dict()
+            print(f"Converting service: {service_dict['name']}")  # Debug log
+            result.append(service_dict)
+        print(f"Converted {len(result)} services to JSON")  # Debug log
+        return jsonify(result)
     except Exception as e:
+        print(f"Error in get_services: {str(e)}")  # Debug log
         logging.error(f"Error fetching services: {str(e)}")
-        return jsonify({'error': 'Failed to fetch services'}), 500
+        return jsonify({'error': 'Failed to fetch services', 'details': str(e)}), 500
+
+
+@app.route('/api/debug/db')
+def debug_db():
+    try:
+        with app.app_context():
+            # Test basic database connectivity
+            db_test = EmergencyService.query.first()
+            total_count = EmergencyService.query.count()
+            active_count = EmergencyService.query.filter_by(is_active=True).count()
+
+            return jsonify({
+                'database_uri': app.config['SQLALCHEMY_DATABASE_URI'],
+                'connection_test': 'success' if db_test else 'no data but connected',
+                'first_record': db_test.to_dict() if db_test else None,
+                'total_records': total_count,
+                'active_records': active_count,
+                'timestamp': datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S'),
+            })
+    except Exception as e:
+        return jsonify({
+            'error': str(e),
+            'database_uri': app.config['SQLALCHEMY_DATABASE_URI'],
+            'timestamp': datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S'),
+        }), 500
 
 
 @app.route('/admin/reports')
@@ -166,7 +201,7 @@ def admin_reports():
         reports = EmergencyReport.query.order_by(EmergencyReport.created_at.desc()).all()
         return render_template('admin_reports.html',
                                reports=reports,
-                               current_time="2025-02-16 15:19:58",
+                               current_time="2025-02-16 19:28:58",
                                current_user="nicknet06")
     except Exception as e:
         flash(f'Error accessing database: {str(e)}', 'error')
@@ -221,7 +256,7 @@ def get_statistics():
         return jsonify(stats)
     except Exception as e:
         logging.error(f"Error fetching statistics: {str(e)}")
-        return jsonify({'error': 'Failed to fetch statistics'}), 500
+        return jsonify({'error': 'Failed to fetch statistics', 'details': str(e)}), 500
 
 
 @app.cli.command("list-reports")
@@ -253,7 +288,7 @@ def list_reports():
 @app.errorhandler(404)
 def not_found_error(error):
     return render_template('404.html',
-                           current_time="2025-02-16 15:19:58",
+                           current_time="2025-02-16 19:28:58",
                            current_user="nicknet06"), 404
 
 
@@ -261,7 +296,7 @@ def not_found_error(error):
 def internal_error(error):
     db.session.rollback()
     return render_template('500.html',
-                           current_time="2025-02-16 15:19:58",
+                           current_time="2025-02-16 19:28:58",
                            current_user="nicknet06"), 500
 
 
@@ -273,7 +308,7 @@ if __name__ == '__main__':
     print(f"Template folder: {app.template_folder}")
     print(f"Static folder: {app.static_folder}")
     print(f"Upload folder: {UPLOAD_FOLDER}")
-    print(f"Current time (UTC): 2025-02-16 15:19:58")
+    print(f"Current time (UTC): 2025-02-16 19:28:58")
     print(f"Current user: nicknet06")
 
     if os.path.exists(app.template_folder):

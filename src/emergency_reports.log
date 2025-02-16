@@ -3171,3 +3171,178 @@ TypeError: The view function for 'custom_static' did not return a valid response
             Timestamp: 2025-02-16 18:15:08.579424
             
 2025-02-16 18:15:08 - 127.0.0.1 - - [16/Feb/2025 18:15:08] "POST /chat HTTP/1.0" 200 -
+2025-02-16 19:10:35 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.0.3:5000
+2025-02-16 19:10:35 - [33mPress CTRL+C to quit[0m
+2025-02-16 19:10:35 -  * Restarting with stat
+2025-02-16 19:10:35 -  * Debugger is active!
+2025-02-16 19:10:35 -  * Debugger PIN: 159-509-250
+2025-02-16 19:10:38 - 127.0.0.1 - - [16/Feb/2025 19:10:38] "GET /admin/dashboard HTTP/1.0" 200 -
+2025-02-16 19:10:38 - 127.0.0.1 - - [16/Feb/2025 19:10:38] "[36mGET /css/admin.css HTTP/1.0[0m" 304 -
+2025-02-16 19:10:38 - 127.0.0.1 - - [16/Feb/2025 19:10:38] "[36mGET /js/admin.js HTTP/1.0[0m" 304 -
+2025-02-16 19:10:38 - 127.0.0.1 - - [16/Feb/2025 19:10:38] "[36mGET /images/police-icon.png HTTP/1.0[0m" 304 -
+2025-02-16 19:10:38 - 127.0.0.1 - - [16/Feb/2025 19:10:38] "[36mGET /images/hospital-icon.png HTTP/1.0[0m" 304 -
+2025-02-16 19:10:38 - 127.0.0.1 - - [16/Feb/2025 19:10:38] "[36mGET /images/fire-icon.png HTTP/1.0[0m" 304 -
+2025-02-16 19:10:38 - 127.0.0.1 - - [16/Feb/2025 19:10:38] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:10:38 - 127.0.0.1 - - [16/Feb/2025 19:10:38] "[35m[1mGET /favicon.ico HTTP/1.0[0m" 500 -
+2025-02-16 19:11:19 - 127.0.0.1 - - [16/Feb/2025 19:11:19] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:11:19 - 127.0.0.1 - - [16/Feb/2025 19:11:19] "[35m[1mGET /favicon.ico HTTP/1.0[0m" 500 -
+2025-02-16 19:14:16 - 127.0.0.1 - - [16/Feb/2025 19:14:16] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:14:16 - 127.0.0.1 - - [16/Feb/2025 19:14:16] "[35m[1mGET /favicon.ico HTTP/1.0[0m" 500 -
+2025-02-16 19:14:16 - 127.0.0.1 - - [16/Feb/2025 19:14:16] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:14:16 - 127.0.0.1 - - [16/Feb/2025 19:14:16] "[35m[1mGET /favicon.ico HTTP/1.0[0m" 500 -
+2025-02-16 19:14:17 - 127.0.0.1 - - [16/Feb/2025 19:14:17] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:14:17 - 127.0.0.1 - - [16/Feb/2025 19:14:17] "[35m[1mGET /favicon.ico HTTP/1.0[0m" 500 -
+2025-02-16 19:14:17 - 127.0.0.1 - - [16/Feb/2025 19:14:17] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:14:17 - 127.0.0.1 - - [16/Feb/2025 19:14:17] "[35m[1mGET /favicon.ico HTTP/1.0[0m" 500 -
+2025-02-16 19:14:17 - 127.0.0.1 - - [16/Feb/2025 19:14:17] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:14:17 - 127.0.0.1 - - [16/Feb/2025 19:14:17] "[35m[1mGET /favicon.ico HTTP/1.0[0m" 500 -
+2025-02-16 19:14:17 - 127.0.0.1 - - [16/Feb/2025 19:14:17] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:14:17 - 127.0.0.1 - - [16/Feb/2025 19:14:17] "[35m[1mGET /favicon.ico HTTP/1.0[0m" 500 -
+2025-02-16 19:14:18 - 127.0.0.1 - - [16/Feb/2025 19:14:18] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:14:18 - 127.0.0.1 - - [16/Feb/2025 19:14:18] "[35m[1mGET /favicon.ico HTTP/1.0[0m" 500 -
+2025-02-16 19:14:51 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.0.3:5000
+2025-02-16 19:14:51 - [33mPress CTRL+C to quit[0m
+2025-02-16 19:14:51 -  * Restarting with stat
+2025-02-16 19:14:51 -  * Debugger is active!
+2025-02-16 19:14:51 -  * Debugger PIN: 222-805-781
+2025-02-16 19:14:53 - 127.0.0.1 - - [16/Feb/2025 19:14:53] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:14:53 - 127.0.0.1 - - [16/Feb/2025 19:14:53] "[35m[1mGET /favicon.ico HTTP/1.0[0m" 500 -
+2025-02-16 19:16:44 - 127.0.0.1 - - [16/Feb/2025 19:16:44] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:16:44 - 127.0.0.1 - - [16/Feb/2025 19:16:44] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+2025-02-16 19:16:44 - 127.0.0.1 - - [16/Feb/2025 19:16:44] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:16:45 - 127.0.0.1 - - [16/Feb/2025 19:16:45] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:16:45 - 127.0.0.1 - - [16/Feb/2025 19:16:45] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:16:45 - 127.0.0.1 - - [16/Feb/2025 19:16:45] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:16:54 - 127.0.0.1 - - [16/Feb/2025 19:16:54] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:16:55 - 127.0.0.1 - - [16/Feb/2025 19:16:55] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:16:55 - 127.0.0.1 - - [16/Feb/2025 19:16:55] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:16:55 - 127.0.0.1 - - [16/Feb/2025 19:16:55] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:16:55 - 127.0.0.1 - - [16/Feb/2025 19:16:55] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:16:56 - 127.0.0.1 - - [16/Feb/2025 19:16:56] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:16:56 - 127.0.0.1 - - [16/Feb/2025 19:16:56] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:16:56 - 127.0.0.1 - - [16/Feb/2025 19:16:56] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:16:56 - 127.0.0.1 - - [16/Feb/2025 19:16:56] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:16:57 - 127.0.0.1 - - [16/Feb/2025 19:16:57] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:17:25 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.0.3:5000
+2025-02-16 19:17:25 - [33mPress CTRL+C to quit[0m
+2025-02-16 19:17:25 -  * Restarting with stat
+2025-02-16 19:17:25 -  * Debugger is active!
+2025-02-16 19:17:25 -  * Debugger PIN: 370-264-488
+2025-02-16 19:17:31 - 127.0.0.1 - - [16/Feb/2025 19:17:31] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:17:33 - 127.0.0.1 - - [16/Feb/2025 19:17:33] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:17:33 - 127.0.0.1 - - [16/Feb/2025 19:17:33] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:17:34 - 127.0.0.1 - - [16/Feb/2025 19:17:34] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:17:35 - 127.0.0.1 - - [16/Feb/2025 19:17:35] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:17:35 - 127.0.0.1 - - [16/Feb/2025 19:17:35] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:17:36 - 127.0.0.1 - - [16/Feb/2025 19:17:36] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:17:36 - 127.0.0.1 - - [16/Feb/2025 19:17:36] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:17:38 - 127.0.0.1 - - [16/Feb/2025 19:17:38] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:17:39 - 127.0.0.1 - - [16/Feb/2025 19:17:39] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:17:39 - 127.0.0.1 - - [16/Feb/2025 19:17:39] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:17:44 - 127.0.0.1 - - [16/Feb/2025 19:17:44] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:17:44 - 127.0.0.1 - - [16/Feb/2025 19:17:44] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:17:45 - 127.0.0.1 - - [16/Feb/2025 19:17:45] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:17:45 - 127.0.0.1 - - [16/Feb/2025 19:17:45] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:17:45 - 127.0.0.1 - - [16/Feb/2025 19:17:45] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:17:45 - 127.0.0.1 - - [16/Feb/2025 19:17:45] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:17:45 - 127.0.0.1 - - [16/Feb/2025 19:17:45] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:17:46 - 127.0.0.1 - - [16/Feb/2025 19:17:46] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:21:20 -  * Detected change in '/app/app.py', reloading
+2025-02-16 19:21:20 -  * Restarting with stat
+2025-02-16 19:21:20 -  * Debugger is active!
+2025-02-16 19:21:20 -  * Debugger PIN: 370-264-488
+2025-02-16 19:21:37 -  * Detected change in '/app/app.py', reloading
+2025-02-16 19:21:37 -  * Restarting with stat
+2025-02-16 19:21:38 -  * Debugger is active!
+2025-02-16 19:21:38 -  * Debugger PIN: 370-264-488
+2025-02-16 19:30:27 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.0.3:5000
+2025-02-16 19:30:27 - [33mPress CTRL+C to quit[0m
+2025-02-16 19:30:27 -  * Restarting with stat
+2025-02-16 19:30:28 -  * Debugger is active!
+2025-02-16 19:30:28 -  * Debugger PIN: 872-046-284
+2025-02-16 19:30:57 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.0.3:5000
+2025-02-16 19:30:57 - [33mPress CTRL+C to quit[0m
+2025-02-16 19:30:57 -  * Restarting with stat
+2025-02-16 19:30:57 -  * Debugger is active!
+2025-02-16 19:30:57 -  * Debugger PIN: 155-758-904
+2025-02-16 19:31:02 - 127.0.0.1 - - [16/Feb/2025 19:31:02] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:31:03 - 127.0.0.1 - - [16/Feb/2025 19:31:03] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:31:04 - 127.0.0.1 - - [16/Feb/2025 19:31:04] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:31:07 - 127.0.0.1 - - [16/Feb/2025 19:31:07] "GET /admin/dashboard HTTP/1.0" 200 -
+2025-02-16 19:31:07 - 127.0.0.1 - - [16/Feb/2025 19:31:07] "[36mGET /css/admin.css HTTP/1.0[0m" 304 -
+2025-02-16 19:31:07 - 127.0.0.1 - - [16/Feb/2025 19:31:07] "[36mGET /js/admin.js HTTP/1.0[0m" 304 -
+2025-02-16 19:31:07 - 127.0.0.1 - - [16/Feb/2025 19:31:07] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:31:08 - 127.0.0.1 - - [16/Feb/2025 19:31:08] "GET /admin/dashboard HTTP/1.0" 200 -
+2025-02-16 19:31:08 - 127.0.0.1 - - [16/Feb/2025 19:31:08] "[36mGET /css/admin.css HTTP/1.0[0m" 304 -
+2025-02-16 19:31:08 - 127.0.0.1 - - [16/Feb/2025 19:31:08] "[36mGET /js/admin.js HTTP/1.0[0m" 304 -
+2025-02-16 19:31:08 - 127.0.0.1 - - [16/Feb/2025 19:31:08] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:31:09 - 127.0.0.1 - - [16/Feb/2025 19:31:09] "GET /admin/dashboard HTTP/1.0" 200 -
+2025-02-16 19:31:09 - 127.0.0.1 - - [16/Feb/2025 19:31:09] "[36mGET /css/admin.css HTTP/1.0[0m" 304 -
+2025-02-16 19:31:09 - 127.0.0.1 - - [16/Feb/2025 19:31:09] "[36mGET /js/admin.js HTTP/1.0[0m" 304 -
+2025-02-16 19:31:09 - 127.0.0.1 - - [16/Feb/2025 19:31:09] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:31:09 - 127.0.0.1 - - [16/Feb/2025 19:31:09] "GET /admin/dashboard HTTP/1.0" 200 -
+2025-02-16 19:31:09 - 127.0.0.1 - - [16/Feb/2025 19:31:09] "[36mGET /js/admin.js HTTP/1.0[0m" 304 -
+2025-02-16 19:31:09 - 127.0.0.1 - - [16/Feb/2025 19:31:09] "[36mGET /css/admin.css HTTP/1.0[0m" 304 -
+2025-02-16 19:31:09 - 127.0.0.1 - - [16/Feb/2025 19:31:09] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:31:09 - 127.0.0.1 - - [16/Feb/2025 19:31:09] "GET /admin/dashboard HTTP/1.0" 200 -
+2025-02-16 19:31:09 - 127.0.0.1 - - [16/Feb/2025 19:31:09] "[36mGET /js/admin.js HTTP/1.0[0m" 304 -
+2025-02-16 19:31:09 - 127.0.0.1 - - [16/Feb/2025 19:31:09] "[36mGET /css/admin.css HTTP/1.0[0m" 304 -
+2025-02-16 19:31:09 - 127.0.0.1 - - [16/Feb/2025 19:31:09] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:31:10 - 127.0.0.1 - - [16/Feb/2025 19:31:10] "GET /admin/dashboard HTTP/1.0" 200 -
+2025-02-16 19:31:10 - 127.0.0.1 - - [16/Feb/2025 19:31:10] "[36mGET /css/admin.css HTTP/1.0[0m" 304 -
+2025-02-16 19:31:10 - 127.0.0.1 - - [16/Feb/2025 19:31:10] "[36mGET /js/admin.js HTTP/1.0[0m" 304 -
+2025-02-16 19:31:10 - 127.0.0.1 - - [16/Feb/2025 19:31:10] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:31:10 - 127.0.0.1 - - [16/Feb/2025 19:31:10] "GET /admin/dashboard HTTP/1.0" 200 -
+2025-02-16 19:31:10 - 127.0.0.1 - - [16/Feb/2025 19:31:10] "[36mGET /js/admin.js HTTP/1.0[0m" 304 -
+2025-02-16 19:31:10 - 127.0.0.1 - - [16/Feb/2025 19:31:10] "[36mGET /css/admin.css HTTP/1.0[0m" 304 -
+2025-02-16 19:31:10 - 127.0.0.1 - - [16/Feb/2025 19:31:10] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:31:10 - 127.0.0.1 - - [16/Feb/2025 19:31:10] "GET /admin/dashboard HTTP/1.0" 200 -
+2025-02-16 19:31:10 - 127.0.0.1 - - [16/Feb/2025 19:31:10] "[36mGET /css/admin.css HTTP/1.0[0m" 304 -
+2025-02-16 19:31:10 - 127.0.0.1 - - [16/Feb/2025 19:31:10] "[36mGET /js/admin.js HTTP/1.0[0m" 304 -
+2025-02-16 19:31:10 - 127.0.0.1 - - [16/Feb/2025 19:31:10] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:31:10 - 127.0.0.1 - - [16/Feb/2025 19:31:10] "GET /admin/dashboard HTTP/1.0" 200 -
+2025-02-16 19:31:10 - 127.0.0.1 - - [16/Feb/2025 19:31:10] "[36mGET /css/admin.css HTTP/1.0[0m" 304 -
+2025-02-16 19:31:10 - 127.0.0.1 - - [16/Feb/2025 19:31:10] "[36mGET /js/admin.js HTTP/1.0[0m" 304 -
+2025-02-16 19:31:10 - 127.0.0.1 - - [16/Feb/2025 19:31:10] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:31:11 - 127.0.0.1 - - [16/Feb/2025 19:31:11] "GET /admin/dashboard HTTP/1.0" 200 -
+2025-02-16 19:31:11 - 127.0.0.1 - - [16/Feb/2025 19:31:11] "[36mGET /css/admin.css HTTP/1.0[0m" 304 -
+2025-02-16 19:31:11 - 127.0.0.1 - - [16/Feb/2025 19:31:11] "[36mGET /js/admin.js HTTP/1.0[0m" 304 -
+2025-02-16 19:31:11 - 127.0.0.1 - - [16/Feb/2025 19:31:11] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:31:11 - 127.0.0.1 - - [16/Feb/2025 19:31:11] "GET /admin/dashboard HTTP/1.0" 200 -
+2025-02-16 19:31:11 - 127.0.0.1 - - [16/Feb/2025 19:31:11] "[36mGET /js/admin.js HTTP/1.0[0m" 304 -
+2025-02-16 19:31:11 - 127.0.0.1 - - [16/Feb/2025 19:31:11] "[36mGET /css/admin.css HTTP/1.0[0m" 304 -
+2025-02-16 19:31:11 - 127.0.0.1 - - [16/Feb/2025 19:31:11] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:31:11 - 127.0.0.1 - - [16/Feb/2025 19:31:11] "GET /admin/dashboard HTTP/1.0" 200 -
+2025-02-16 19:31:11 - 127.0.0.1 - - [16/Feb/2025 19:31:11] "[36mGET /css/admin.css HTTP/1.0[0m" 304 -
+2025-02-16 19:31:11 - 127.0.0.1 - - [16/Feb/2025 19:31:11] "[36mGET /js/admin.js HTTP/1.0[0m" 304 -
+2025-02-16 19:31:11 - 127.0.0.1 - - [16/Feb/2025 19:31:11] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:31:11 - 127.0.0.1 - - [16/Feb/2025 19:31:11] "GET /admin/dashboard HTTP/1.0" 200 -
+2025-02-16 19:31:11 - 127.0.0.1 - - [16/Feb/2025 19:31:11] "[36mGET /js/admin.js HTTP/1.0[0m" 304 -
+2025-02-16 19:31:11 - 127.0.0.1 - - [16/Feb/2025 19:31:11] "[36mGET /css/admin.css HTTP/1.0[0m" 304 -
+2025-02-16 19:31:11 - 127.0.0.1 - - [16/Feb/2025 19:31:11] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:31:57 - 127.0.0.1 - - [16/Feb/2025 19:31:57] "GET /api/debug/db HTTP/1.0" 200 -
+2025-02-16 19:32:03 - 127.0.0.1 - - [16/Feb/2025 19:32:03] "GET /api/statistics HTTP/1.0" 200 -
+2025-02-16 19:32:07 - 127.0.0.1 - - [16/Feb/2025 19:32:07] "GET /api/services HTTP/1.0" 200 -
+2025-02-16 19:33:41 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.0.3:5000
+2025-02-16 19:33:41 - [33mPress CTRL+C to quit[0m
+2025-02-16 19:33:41 -  * Restarting with stat
+2025-02-16 19:33:41 -  * Debugger is active!
+2025-02-16 19:33:41 -  * Debugger PIN: 130-328-885
